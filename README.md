@@ -1,5 +1,19 @@
-# Getting Started with Create React App
 
+![image](https://user-images.githubusercontent.com/62029765/136839436-f338c899-09b1-419f-af6e-681e1b5e2553.png)
+
+## WhatsApp Clone 
+
+##APPLICATION LINK -https://whatsapp-clone-1ec4f.web.app
+
+This is a WhatsApp clone , where anyone can sign in using google authentication and can start instant messaging to anyone in real time. Name of the person and time of message sent is also shown in real time. Last seen activity of the user is also displayed.
+
+TechStack used:- ->React.js for frontend development 
+                 ->Firebase firestore for storage and data base functionalities
+                 ->firebase authentication for google authentication.
+                 
+                
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
