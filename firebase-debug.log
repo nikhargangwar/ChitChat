@@ -1,0 +1,29 @@
+[debug] [2021-10-11T12:00:04.610Z] ----------------------------------------------------------------------
+[debug] [2021-10-11T12:00:04.612Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\NIKHAR GANGWAR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-11T12:00:04.612Z] CLI Version:   9.19.0
+[debug] [2021-10-11T12:00:04.614Z] Platform:      win32
+[debug] [2021-10-11T12:00:04.614Z] Node Version:  v12.18.2
+[debug] [2021-10-11T12:00:04.615Z] Time:          Mon Oct 11 2021 17:30:04 GMT+0530 (India Standard Time)
+[debug] [2021-10-11T12:00:04.615Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-11T12:00:04.665Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-11T12:00:04.666Z] > authorizing via signed-in user (nikhar.gangwar13@gmail.com)
+[debug] [2021-10-11T12:00:04.666Z] [iam] checking project whatsapp-clone-1ec4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-11T12:00:04.670Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-11T12:00:04.670Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-11T12:00:04.866Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 11 Oct 2021 12:00:04 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-11T12:00:04.878Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-1ec4f:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-11T12:00:06.442Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 11 Oct 2021 12:00:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1347","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-11T12:00:06.444Z] > refreshing access token with scopes: []
+[debug] [2021-10-11T12:00:06.444Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-11T12:00:06.626Z] <<< HTTP RESPONSE 200 {"date":"Mon, 11 Oct 2021 12:00:06 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-11T12:00:06.642Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-1ec4f [none]
+[debug] [2021-10-11T12:00:27.698Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-1ec4f
+[debug] [2021-10-11T12:00:27.880Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-1ec4f
+    at Client.doRequest (C:\Users\NIKHAR GANGWAR\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to get Firebase project whatsapp-clone-1ec4f. Please make sure the project exists and your account has permission to access it.
