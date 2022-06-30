@@ -3,7 +3,7 @@
 
 ## WhatsApp Clone 
 
-##APPLICATION LINK -https://whatsapp-clone-1ec4f.web.app
+##APPLICATION LINK -https://whatsapp-clone-1ec4f.firebaseapp.com/
 
 This is a WhatsApp clone , where anyone can sign in using google authentication and can start instant messaging to anyone in real time. Name of the person and time of message sent is also shown in real time. Last seen activity of the user is also displayed.
 
