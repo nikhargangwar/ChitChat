@@ -24,10 +24,10 @@
 .login_container>button{
 margin-top: 50px;
 text-transform: inherit !important;
-background-color: #0a8d48;
+background-color: #36a1f8;
 color: white;
 }
 .login_container>button:hover{
-    color: #0a8d48;
+    color: #70b3e9;
 
 }

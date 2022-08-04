@@ -19,19 +19,22 @@ function App() {
         <Login />
       ) : (
         <div className="app_parentBody">
-          <h4> WhatsApp Clone</h4>
+          <h4>ChitChat</h4>
          
              <div className="app_body">
           <Router>
             {/* {sidebar} */}
             <Sidebar />
             <Switch>
+           
               <Route path="/rooms/:roomId">
                 {/* {chat} */}
                 <Chat />
               </Route>
-              <Route path="/">
+              <Route path="/">             
+            
               </Route>
+              
             </Switch>
           </Router>
 

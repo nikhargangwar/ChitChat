@@ -18,12 +18,14 @@ function Login() {
         })
         .catch((error)=>alert(error.message));
     };
+
+    
     return (
         <div className="login">
             <div className="login_container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Logo" />
+                {/* <img src="C:\nikhar\Yash\projects\Whatsapp_clone\whatsapp-clone\public\images (6).jpeg" alt="Logo" /> */}
                 <div className="login_text">
-                    <h1>Sign in to Whatsapp</h1>
+                    <h1>Sign in to ChitChat</h1>
                 </div>
 
                 <Button onClick={signIn}>
