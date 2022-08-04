@@ -1,9 +1,7 @@
 
-![image](https://user-images.githubusercontent.com/62029765/136839436-f338c899-09b1-419f-af6e-681e1b5e2553.png)
+![ss](https://user-images.githubusercontent.com/62029765/182852444-61328db5-47ca-4056-b659-5af36e3cdfea.png)
 
-## WhatsApp Clone 
-
-##APPLICATION LINK -https://whatsapp-clone-1ec4f.firebaseapp.com/
+## ChitChat - Realtime Messaging Application
 
 This is a WhatsApp clone , where anyone can sign in using google authentication and can start instant messaging to anyone in real time. Name of the person and time of message sent is also shown in real time. Last seen activity of the user is also displayed.
 
